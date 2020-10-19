@@ -10,6 +10,10 @@
     border: 2px solid #000066;
 }
 
+.yoshi-table td:hover{
+    background-color:rgba(15, 145, 252, 0.1);
+}
+
 .yoshi-isClickedIcon{
     padding: 5px;
 }
