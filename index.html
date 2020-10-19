@@ -22,7 +22,7 @@
         <div uk-grid>
             <div>
                 <table class="uk-table yoshi-table" >
-                    <caption>Table Caption</caption>
+                    <caption hidden>Table Caption</caption>
                     <thead hidden>
                         <tr>
                             <th>Table Heading</th>
@@ -66,8 +66,24 @@
                 </table>
             </div>
             <div>
-                ここに時間を表示する
+                <div class="uk-grid">
+                    <div id="clicked_counter" class="uk-animation-shake">
+                        0
+                    </div>
+                    <div>
+                        Clicked
+                    </div>
+                </div>
+                <div class="uk-grid">
+                    <div>
+                        0
+                    </div>
+                    <div>
+                        SEC
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 
