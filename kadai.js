@@ -19,10 +19,16 @@ $(function(){
         let currentClicked = Number($('#clicked_counter').text());
         currentClicked +=1;
         $('#clicked_counter').text(currentClicked);
-        //let animationClass = 'uk-animation-shake'
-        //$('#clicked_counter').removeClass(animationClass).addClass(animationClass);
-        $('#clicked_counter').addClass('uk-animation-shake');
-        
+
+        //アニメーションクラスの付加
+        let animationClass = 'uk-animation-shake';
+        $('#clicked_counter').addClass(animationClass);
+        //addClass()の後にremoveClass()を実行するとアニメーションが効かないため
+        //時間をおいてからremoveClass()を実施する
+        setTimeout(function(){
+            $('#clicked_counter').removeClass(animationClass);
+        },100);
+       
     });
 
 });
