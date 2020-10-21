@@ -1,0 +1,13 @@
+クラス命名規則はBootstrapの命名規則に従う
+
+    BootstrapはBEMのようにBlockとElementを区別していない
+    OOCSS（Object Oriented CSS）というオブジェクト指向にもとづいて考案された設計思想を基にしている
+
+    Container（入れ物）とContents（中身）を分けて考える
+        .container > .contentsのように依存関係にせず、.containerと.contentsを独立させる（再利用性が向上）
+    Structure（基本構造）とSkin（見た目）を分けて考える
+        .btnで基本構造を定義し、.btn-primaryで見た目を変更する
+
+プロジェクト独自のルール
+    
+    Skin(見た目)が複数ある場合はそれぞれを-で区切ることとする
