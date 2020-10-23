@@ -16,75 +16,77 @@
 
 </head>
 <body>
-    <h1 id="yoshi-title">おせろっぽいげーむ</h1>
+    <div class="full-page">
 
-    <div class="uk-container uk-background-secondary">
-        <div uk-grid>
-            <div>
-                <table class="uk-table yoshi-table" >
-                    <caption hidden>Table Caption</caption>
-                    <thead hidden>
-                        <tr>
-                            <th>Table Heading</th>
-                            <th>Table Heading</th>
-                            <th>Table Heading</th>
-                        </tr>
-                    </thead>
-                    <tfoot hidden>
-                        <tr>
-                            <td>Table Footer</td>
-                            <td>Table Footer</td>
-                            <td>Table Footer</td>
-                        </tr>
-                    </tfoot>
-                    <tbody>
-                        <tr>
-                            <td  class="" cellNumber="1"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="2"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="3"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="4"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                        </tr>
-                        <tr>
-                            <td  class="" cellNumber="5"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="6"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="7"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="8"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                        </tr>
-                        <tr>
-                            <td  class="" cellNumber="9"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="10"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="11"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="12"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                        </tr>
-                        <tr>
-                            <td  class="" cellNumber="13"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="14"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="15"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                            <td  class="" cellNumber="16"><span class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div>
-                <div class="uk-grid">                   
-                    <div id="clicked_counter">
+        <h1 id="yoshi_title">game</h1>
+
+        <div id="yoshi_game_part" class="uk-background-secondary">
+            <div uk-grid>
+                <div>
+                    <table id="yoshi_table" class="uk-table" >
+                        <caption hidden>Table Caption</caption>
+                        <thead hidden>
+                            <tr>
+                                <th>Table Heading</th>
+                                <th>Table Heading</th>
+                                <th>Table Heading</th>
+                            </tr>
+                        </thead>
+                        <tfoot hidden>
+                            <tr>
+                                <td>Table Footer</td>
+                                <td>Table Footer</td>
+                                <td>Table Footer</td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td><span cellNumber="1" id="yoshi_cell_1" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="2" id="yoshi_cell_2" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="3" id="yoshi_cell_3" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="4" id="yoshi_cell_4" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span cellNumber="5" id="yoshi_cell_5" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="6" id="yoshi_cell_6" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="7" id="yoshi_cell_7" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="8" id="yoshi_cell_8" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span cellNumber="9" id="yoshi_cell_9" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="10" id="yoshi_cell_10" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="11" id="yoshi_cell_11" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="12" id="yoshi_cell_12" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                            </tr>
+                            <tr>
+                                <td><span cellNumber="13" id="yoshi_cell_13" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="14" id="yoshi_cell_14" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="15" id="yoshi_cell_15" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                                <td><span cellNumber="16" id="yoshi_cell_16" class="yoshi-isClickedIcon" uk-icon="icon: unlock; ratio: 2"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <div id="yoshi_clicked_counter" class="yoshi-result">
                         0
                     </div>
-                    <div>
+                    <div class="yoshi-result">
                         Clicked
                     </div>
-                </div>
-                <div class="uk-grid">
-                    <div>
+                    <div id="yoshi_clicked_timer" class="yoshi-result">
                         0
                     </div>
-                    <div>
+                    <div class="yoshi-result">
                         SEC
+                    </div>
+                    <div id="yoshi_give_up" class="yoshi-result uk-button-danger">
+                        Give Up
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+
 
 </body>

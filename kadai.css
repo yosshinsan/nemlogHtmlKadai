@@ -1,25 +1,66 @@
-#yoshi-title{
-    margin: 10px auto;
-    padding: 0px auto;
-    background-color: oldlace;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.yoshi-table th{
+.full-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.yoshi-result{
+    margin-top: 10px;
+    width: 150px;
+    font-size: 2em;
+    text-align: center;
+}
+.yoshi-isClickedIcon{
+    padding: 5px;
+    background-color: white;
+}
+
+#yoshi_title{
+    margin-left: 20px;
+    color: #008000;
+}
+
+#yoshi_game_part{
+    margin-left: 10px;
+}
+
+#yoshi_table{
+    margin: 10px;
+}
+
+#yoshi_table th{
     width: 50px;
     height: 50px;
     border: 2px solid #008000;
 }
 
-.yoshi-table td{
+#yoshi_table td{
     width: 50px;
     height: 50px;
     border: 2px solid #008000;
 }
 
-.yoshi-table td:hover{
+#yoshi_table td:hover{
     background-color:rgba(15, 145, 252, 0.1);
 }
 
-.yoshi-isClickedIcon{
-    padding: 5px;
+#yoshi_clicked_counter{
+    color: lightcoral;
+}
+
+#yoshi_clicked_timer{
+    color: lightcoral;
+}
+
+#yoshi_give_up{
+    margin-top: 50px;
+    width: 150px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
 }
